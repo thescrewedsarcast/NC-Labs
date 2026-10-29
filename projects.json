@@ -1,0 +1,202 @@
+[
+  {
+    "id": "latent-canvas",
+    "title": "Latent Canvas",
+    "tagline": "Real-time generative vector studio and parametric design workbench",
+    "description": "An interactive digital canvas combining vector geometry manipulation with local machine learning models for fast prototyping, SVG synthesis, and parametric pattern generation.",
+    "category": "AI & Intelligence",
+    "featured": true,
+    "status": "Active",
+    "version": "v1.4.2",
+    "releaseDate": "2026-09-15",
+    "image": "assets/images/latent-canvas.svg",
+    "demoUrl": "https://example.com/latent-canvas",
+    "repoUrl": "https://github.com/nclabs/latent-canvas",
+    "docsUrl": "https://docs.nclabs.dev/latent-canvas",
+    "techStack": ["Vanilla JS", "Canvas API", "WebGL", "SVG"],
+    "highlights": [
+      "Sub-millisecond parametric vector evaluation",
+      "Export directly to clean SVG and Canvas bytecode",
+      "Zero external runtime dependencies"
+    ],
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Lead Architect"
+    }
+  },
+  {
+    "id": "pulsewire",
+    "title": "PulseWire",
+    "tagline": "Distributed event tracer and telemetry visualizer for micro-architectures",
+    "description": "High-throughput stream visualizer designed to diagnose distributed event flows, trace spans, and highlight cascading bottlenecks without heavy APM overhead.",
+    "category": "Systems & Tools",
+    "featured": true,
+    "status": "Active",
+    "version": "v2.1.0",
+    "releaseDate": "2026-08-20",
+    "image": "assets/images/pulsewire.svg",
+    "demoUrl": "https://example.com/pulsewire",
+    "repoUrl": "https://github.com/nclabs/pulsewire",
+    "docsUrl": "https://docs.nclabs.dev/pulsewire",
+    "techStack": ["WebSockets", "DataView", "CSS Grid", "Canvas"],
+    "highlights": [
+      "Handles 250,000+ spans/sec live in-browser rendering",
+      "Flame-graph and topological DAG inspector",
+      "Self-contained zero-install static dashboard"
+    ],
+    "author": {
+      "name": "Marcus Chen",
+      "role": "Systems Engineer"
+    }
+  },
+  {
+    "id": "waveforge",
+    "title": "WaveForge",
+    "tagline": "Modular WebAudio node synthesizer and algorithmic sound laboratory",
+    "description": "In-browser sound exploration station featuring patchable oscillators, bi-quad filters, frequency modulation, and wavetable sequencing with low-latency DSP.",
+    "category": "Creative & Audio",
+    "featured": true,
+    "status": "Active",
+    "version": "v3.0.1",
+    "releaseDate": "2026-10-04",
+    "image": "assets/images/waveforge.svg",
+    "demoUrl": "https://example.com/waveforge",
+    "repoUrl": "https://github.com/nclabs/waveforge",
+    "docsUrl": "https://docs.nclabs.dev/waveforge",
+    "techStack": ["Web Audio API", "AudioWorklet", "SVG Wire Routing"],
+    "highlights": [
+      "Custom polyphonic AudioWorklet DSP core",
+      "MIDI hardware controller plug-and-play support",
+      "Lossless WAV stem and patch preset export"
+    ],
+    "author": {
+      "name": "Nadia Vance",
+      "role": "Sound Designer"
+    }
+  },
+  {
+    "id": "zerovault",
+    "title": "ZeroVault",
+    "tagline": "Client-side cryptographic safe and ephemeral secret sharing tool",
+    "description": "Zero-trust encrypted payload dispenser leveraging modern WebCrypto PBKDF2 and AES-GCM 256-bit keys. Keys never leave browser memory.",
+    "category": "Security & Web",
+    "featured": false,
+    "status": "Active",
+    "version": "v1.2.0",
+    "releaseDate": "2026-07-12",
+    "image": "assets/images/zerovault.svg",
+    "demoUrl": "https://example.com/zerovault",
+    "repoUrl": "https://github.com/nclabs/zerovault",
+    "docsUrl": "https://docs.nclabs.dev/zerovault",
+    "techStack": ["Web Crypto API", "AES-GCM", "Argon2 / PBKDF2"],
+    "highlights": [
+      "Pure client-side cryptographic encapsulation",
+      "Self-destructing timed hash fragmentation",
+      "Audited against NIST SP 800-38D standards"
+    ],
+    "author": {
+      "name": "Alex Mercer",
+      "role": "Security Researcher"
+    }
+  },
+  {
+    "id": "geocraft",
+    "title": "GeoCraft",
+    "tagline": "Lightweight geospatial cartography and tile rasterizer",
+    "description": "A high-precision GeoJSON vector parser and topological heatmapper optimized for rendering large urban datasets smoothly without third-party mapping SDK locks.",
+    "category": "Systems & Tools",
+    "featured": false,
+    "status": "Beta",
+    "version": "v0.9.4",
+    "releaseDate": "2026-06-18",
+    "image": "assets/images/geocraft.svg",
+    "demoUrl": "https://example.com/geocraft",
+    "repoUrl": "https://github.com/nclabs/geocraft",
+    "docsUrl": "",
+    "techStack": ["GeoJSON", "Canvas 2D", "Spatial Indexing"],
+    "highlights": [
+      "Quadtree spatial indexing for instant point-in-polygon queries",
+      "Renders 50MB GeoJSON files in under 200ms",
+      "Color ramp customization and elevation gradient mapping"
+    ],
+    "author": {
+      "name": "Devin Thorne",
+      "role": "Geospatial Engineer"
+    }
+  },
+  {
+    "id": "hypertype",
+    "title": "HyperType",
+    "tagline": "Distraction-free typographic laboratory and font pairing workbench",
+    "description": "Editorial typographic preview suite with dynamic optical sizing, variable font weight interpolation, reading rhythm metrics, and contrast verification.",
+    "category": "Creative & Audio",
+    "featured": false,
+    "status": "Active",
+    "version": "v2.4.0",
+    "releaseDate": "2026-05-30",
+    "image": "assets/images/hypertype.svg",
+    "demoUrl": "https://example.com/hypertype",
+    "repoUrl": "https://github.com/nclabs/hypertype",
+    "docsUrl": "https://docs.nclabs.dev/hypertype",
+    "techStack": ["Variable Fonts", "CSS Font Loading", "Typography Engine"],
+    "highlights": [
+      "Live variable axes control (wght, wdth, opsz, slnt)",
+      "Automated WCAG APCA contrast evaluation",
+      "Export CSS type scale rules and token definitions"
+    ],
+    "author": {
+      "name": "Sofia Lindqvist",
+      "role": "Type Designer"
+    }
+  },
+  {
+    "id": "chronobench",
+    "title": "ChronoBench",
+    "tagline": "High-resolution micro-benchmark runner for JavaScript engines",
+    "description": "Microsecond benchmark harness with statistical jitter analysis, memory heap sampling, garbage collection impact detection, and exportable flamecharts.",
+    "category": "Systems & Tools",
+    "featured": false,
+    "status": "Active",
+    "version": "v1.1.5",
+    "releaseDate": "2026-04-10",
+    "image": "assets/images/chronobench.svg",
+    "demoUrl": "https://example.com/chronobench",
+    "repoUrl": "https://github.com/nclabs/chronobench",
+    "docsUrl": "https://docs.nclabs.dev/chronobench",
+    "techStack": ["Performance API", "Web Workers", "Statistical Sampling"],
+    "highlights": [
+      "Warmup cycle normalization and outlier elimination",
+      "Runs isolated in dedicated Web Workers",
+      "Side-by-side AST execution speed comparisons"
+    ],
+    "author": {
+      "name": "Marcus Chen",
+      "role": "Systems Engineer"
+    }
+  },
+  {
+    "id": "neuralbrief",
+    "title": "NeuralBrief",
+    "tagline": "Hierarchical document synthesizer and knowledge card generator",
+    "description": "Converts dense research papers and technical specifications into structured executive summaries, concept graphs, and actionable bullet takeaways.",
+    "category": "AI & Intelligence",
+    "featured": false,
+    "status": "Experimental",
+    "version": "v0.5.2",
+    "releaseDate": "2026-09-28",
+    "image": "assets/images/neuralbrief.svg",
+    "demoUrl": "https://example.com/neuralbrief",
+    "repoUrl": "https://github.com/nclabs/neuralbrief",
+    "docsUrl": "",
+    "techStack": ["Client-Side NLP", "DOM Parser", "Knowledge Graph"],
+    "highlights": [
+      "Automatic key takeaways extraction",
+      "Interactive conceptual node graph",
+      "Markdown and Notion export compatibility"
+    ],
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Lead Architect"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="12" fill="#0E121E"/>
+  
+  <!-- Knowledge graph nodes -->
+  <line x1="160" y1="180" x2="280" y2="120" stroke="#4F46E5" stroke-width="2"/>
+  <line x1="160" y1="180" x2="280" y2="240" stroke="#4F46E5" stroke-width="2"/>
+  <line x1="280" y1="120" x2="420" y2="100" stroke="#6366F1" stroke-width="2"/>
+  <line x1="280" y1="120" x2="400" y2="180" stroke="#6366F1" stroke-width="2"/>
+  <line x1="280" y1="240" x2="420" y2="220" stroke="#6366F1" stroke-width="2"/>
+  <line x1="280" y1="240" x2="440" y2="280" stroke="#6366F1" stroke-width="2"/>
+
+  <!-- Synthesis cards mockup on right -->
+  <rect x="360" y="80" width="180" height="190" rx="8" fill="#182035" stroke="#2D3A58" stroke-width="1.5"/>
+  <rect x="380" y="105" width="80" height="8" rx="4" fill="#818CF8"/>
+  <rect x="380" y="125" width="140" height="6" rx="3" fill="#475569"/>
+  <rect x="380" y="140" width="125" height="6" rx="3" fill="#475569"/>
+  <rect x="380" y="155" width="135" height="6" rx="3" fill="#475569"/>
+  <rect x="380" y="180" width="60" height="6" rx="3" fill="#38BDF8"/>
+  <rect x="380" y="195" width="110" height="6" rx="3" fill="#475569"/>
+  <rect x="380" y="210" width="130" height="6" rx="3" fill="#475569"/>
+
+  <!-- Glowing Nodes -->
+  <circle cx="160" cy="180" r="16" fill="#4F46E5" stroke="#818CF8" stroke-width="3"/>
+  <circle cx="280" cy="120" r="12" fill="#6366F1"/>
+  <circle cx="280" cy="240" r="12" fill="#6366F1"/>
+  <circle cx="420" cy="100" r="8" fill="#A5B4FC"/>
+  <circle cx="400" cy="180" r="8" fill="#A5B4FC"/>
+  <circle cx="420" cy="220" r="8" fill="#A5B4FC"/>
+  <circle cx="440" cy="280" r="8" fill="#A5B4FC"/>
+
+  <rect x="24" y="24" width="120" height="28" rx="6" fill="#141C2D" stroke="#25324E" stroke-width="1"/>
+  <text x="36" y="42" fill="#A5B4FC" font-family="system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="1">SYNTHESIS AI</text>
+</svg>

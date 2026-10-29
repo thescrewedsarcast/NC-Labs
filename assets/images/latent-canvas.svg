@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="12" fill="#0C101A"/>
+  <defs>
+    <linearGradient id="lcGrad" x1="50" y1="50" x2="550" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="lcGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0C101A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="600" height="360" fill="url(#lcGlow)"/>
+  
+  <!-- Subtle vector coordinates grid -->
+  <g stroke="#1F293D" stroke-width="1" stroke-dasharray="4 6" opacity="0.6">
+    <line x1="60" y1="0" x2="60" y2="360"/>
+    <line x1="180" y1="0" x2="180" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="420" y1="0" x2="420" y2="360"/>
+    <line x1="540" y1="0" x2="540" y2="360"/>
+    <line x1="0" y1="90" x2="600" y2="90"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="270" x2="600" y2="270"/>
+  </g>
+  
+  <!-- Bezier vector curves -->
+  <path d="M 80 260 C 180 80, 240 320, 360 140 S 520 220, 520 120" stroke="url(#lcGrad)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 80 200 C 160 300, 300 60, 420 240 S 500 160, 540 220" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="3 3" fill="none"/>
+  
+  <!-- Anchor points & tangent handles -->
+  <line x1="180" y1="80" x2="240" y2="320" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <circle cx="180" cy="80" r="5" fill="#38BDF8" stroke="#0C101A" stroke-width="2"/>
+  <circle cx="240" cy="320" r="5" fill="#818CF8" stroke="#0C101A" stroke-width="2"/>
+  <circle cx="360" cy="140" r="6" fill="#C084FC" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="74" y="254" width="12" height="12" rx="2" fill="#38BDF8"/>
+  <rect x="514" y="114" width="12" height="12" rx="2" fill="#C084FC"/>
+  
+  <!-- Subtle overlay label badge -->
+  <rect x="24" y="24" width="118" height="28" rx="6" fill="#141C2D" stroke="#25324E" stroke-width="1"/>
+  <text x="36" y="42" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="1">PARAMETRIC</text>
+</svg>

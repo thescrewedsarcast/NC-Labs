@@ -1,0 +1,6 @@
+{
+  "name": "NC Labs",
+  "description": "Innovation laboratory and central project registry showcasing creative prototypes, web applications, and experimental digital tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
