@@ -50,9 +50,10 @@ In the **Configure Project** screen, set the following options:
 | **Root Directory** | `./` (Repository root) | Ensures `index.html` and `projects.json` are served from the root |
 | **Build Command** | *Leave empty / Override: Off* | Pure static HTML/CSS/JS requires no build step |
 | **Output Directory** | *Leave empty / Override: Off* | Serves the root directory directly |
+| **Install Command** | *Override ON & leave empty* (Recommended) | Skips unnecessary package installation on static deploys |
 | **Environment Variables** | None required | Fully client-side architecture |
 
-> **Note on Framework Preset**: If Vercel auto-detects `Vite` due to the root `vite.config.ts`, you can either leave it as `Vite` (Vite's build is configured to bundle `dist/` seamlessly) or select **Other** to bypass all building and serve static files directly.
+> **Note on `npm install` & Vercel**: If Vercel runs `npm install`, the repository includes a configured `.npmrc` (`legacy-peer-deps=true`) and aligned `esbuild` dependencies to prevent `ERESOLVE` conflicts. However, turning **Override ON** for the **Install Command** (leaving the input field blank) is recommended for pure static deployments so Vercel skips package installation entirely and publishes in seconds.
 
 ### 4. How to Publish the Website
 1. Click the blue **Deploy** button.
